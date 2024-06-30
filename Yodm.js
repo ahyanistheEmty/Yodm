@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", () => {
         chatBox.scrollTop = chatBox.scrollHeight;
 
         try {
-            const response = await fetch('http://localhost:3000/generate', {
+            const response = await fetch('https://11pwcqff-3000.inc1.devtunnels.ms/generate', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -172,7 +172,7 @@ document.addEventListener("DOMContentLoaded", () => {
         promptInput.value = '';
 
         try {
-            const response = await fetch('http://localhost:3000/reset', {
+            const response = await fetch('https://11pwcqff-3000.inc1.devtunnels.ms/reset', {
                 method: 'POST'
             });
             if (!response.ok) {
