@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", () => {
         chatBox.scrollTop = chatBox.scrollHeight;
 
         try {
-            const response = await fetch('https://11pwcqff-3000.inc1.devtunnels.ms/generate', {
+            const response = await fetch('https://sgf925pg-3000.inc1.devtunnels.ms/generate', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -172,7 +172,7 @@ document.addEventListener("DOMContentLoaded", () => {
         promptInput.value = '';
 
         try {
-            const response = await fetch('https://11pwcqff-3000.inc1.devtunnels.ms/reset', {
+            const response = await fetch('https://sgf925pg-3000.inc1.devtunnels.ms/reset', {
                 method: 'POST'
             });
             if (!response.ok) {
