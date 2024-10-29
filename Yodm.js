@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", () => {
         chatBox.scrollTop = chatBox.scrollHeight;
 
         try {
-            const response = await fetch('https://sgf925pg-3000.inc1.devtunnels.ms/generate', {
+            const response = await fetch('https://dbwlqflm-3000.inc1.devtunnels.ms/generate', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
